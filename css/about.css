@@ -1,0 +1,118 @@
+/* navbar */
+
+.nav-link {
+  transition: all 0.3s ease-in-out;
+}
+.nav-link:hover{
+  transform: scale(1.1);
+}
+
+/* body */
+body {
+  background-color: aliceblue;
+}
+
+/* body-top */
+
+.body-top {
+    text-align: center;
+    width: auto;
+    margin: auto;    
+    background-size: cover;
+    background-image: url('.././images/aboutbg.jpg');
+    background-attachment: fixed;
+    padding: 50px;
+  
+}
+.acol {
+    padding: 2rem;
+}
+
+.body-top h4 {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    max-width: 90rem;
+   
+}
+
+#tm {
+ font-size: xx-large;
+ text-align: center;
+}
+.body-low { 
+   padding: 2rem;
+   margin: auto;
+   width: auto;
+   
+  /* background-color: rgb(31, 37, 37);  */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+}
+
+h3 {
+    font-size: 35px;
+}
+h5 {
+    word-spacing: 0.5rem;
+    font-size: 25px;
+}
+.card {
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.01);
+
+}
+#tm {
+padding: 0.5rem;
+}
+
+/* Footer */
+
+footer a:hover {
+  opacity: 0.5;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1000px) {
+    .body-low { 
+        padding: 2rem;
+        margin: auto;
+        width: auto;
+        
+       display: grid;
+       grid-template-columns: 100%;
+     }
+
+  }
+  @media only screen and (max-width: 690px) {
+
+    .body-top {
+        padding: 0rem;  
+        font-size: medium;    
+    }
+    .body-low img {
+        height: 8rem;
+    }
+    .card-title {
+        font-size: 1.5rem;
+      }
+      .card-text {
+        font-size: 0.9rem;
+      }
+      .col-md-4 {
+        text-align: center;
+        background-color: aliceblue;
+      }
+      .card {
+        background-color: aliceblue;
+        border-style: none;
+      }
+      .card img {
+        width: 8rem;
+      }
+  }
